@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Site web - Firmă de închiriat ATV-uri</title>
+        <!-- stylesheet aleator -->
+        <link rel="stylesheet" href="./stil.css">
+        <!-- Iconscout CDN -->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+    </head>
+    <body>
+        <nav>
+            <div class="container">
+            <a href="home.html" class="logo"><img src="./ATV.png"></a>
+            <ul>
+                <li><a href="introducere.html">Despre</a></li>
+                <li><a href="bargau.html">Valea Bârgăului</a></li>
+                <li><a href="servicii.html">Servicii</a></li>
+            </ul>
+            <button id="menu-btn"><i class="uil uil-bars"></i></button>
+            <button id="close-btn"><i class="uil uil-multiply"></i></button>
+        </div>
+        </nav>
+		
+		<header>
+			<script>
+			function preturi(numar_atv, pret_ora) {
+			return numar_atv * pret_ora;
+			}
+			let text="";
+
+			for(let numar_atv=1; numar_atv<=3; numar_atv++)
+			{
+			text += preturi(numar_atv, 500)+" lei/ora <br>";
+			}
+			</script>
+			<h2>Tarifele de închiriat ATV-uri sunt următoarele:</h2>
+			
+			<div class="row">
+			<div class="column">
+				<h2>1 ATV<br>500 lei/ora</br></h2>
+				<br><a href="servicii.html" class="btn btn-primary">Închiriază acum un ATV!</a></br>
+			</div>
+			<div class="column">
+				<h2>2 ATV-uri<br>1000 lei/ora</br></h2>
+				<br><a href="servicii.html" class="btn btn-primary">Închiriază acum un ATV!</a></br>
+			</div>
+			<div class="column">
+				<h2>3 ATV-uri<br>1500 lei/ora</br></h2>
+				<br><a href="servicii.html" class="btn btn-primary">Închiriază acum un ATV!</a></br>
+			</div>
+			</div>
+		</header>
+
+		<footer>
+            <div class="container">
+			<div class="f1">
+				<img src="./ATV.png">
+            </div>
+			<div class="f2">
+				<h4>Legături permanente</h4>
+				<ul>
+					<li><a href="introducere.html">Despre</a></li>
+					<li><a href="bargau.html">Valea Bârgăului</a></li>
+					<li><a href="servicii.html">Servicii</a></li>
+				</ul>
+			</div>
+            <div class="f3">
+			<h4>Contactează</h4>
+				<p>Adresa: Strada Pensiunilor nr. 35, localitatea Prundu Bârgăului, comuna Prundu Bârgăului, județul Bistrița-Năsăud</br>
+				Persoana contact: <a href="mailto:maria.stefanut2003@gmail.com">Maria Ștefănuț</a></br>
+				Număr telefon: <a href="tel:0727761400">0727761400</a>
+				</p>
+				<ul class="socials">
+				<li><a href="https://facebook.com/p/Plimb%C4%83ri-ATV-Valea-B%C3%A2rg%C4%83ului-100086904220929/" target="_blank"><i class="uil uil-facebook"></i></a></li>
+                <li><a href="https://instagram.com/atv.experiences" target="_blank"><i class="uil uil-instagram"></i></a></li>
+				</ul>
+				<small>Copyright &copy; 2024 ATV Experiences</small>
+            </div>
+			</div>
+        </footer>
+
+        <script src="./main.js"></script>
+        
+    </body>
+</html>

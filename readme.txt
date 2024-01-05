@@ -1,0 +1,5 @@
+Acest site web este despre o firmă de închiriat ATV-uri pe Valea Bârgăului, care a fost fondată în septembrie 2022 de către o fostă colegă de școală din liceu.
+În pagina secundară „Despre”, o prezint pe cea care a fondat firma, iar în footer vom găsi datele ei de contact, precum și rețele sociale, unde firma este prezentă.
+În pagina secundară „Valea Bârgăului”, am prezentat despre Valea Bârgăului, despre peisajele din zona respectivă, cât și tradițiile și obiceiurile din zona respectivă. Am menționat și sursele, de unde am preluat informațiile.
+În pagina secundară „Servicii”, am implementat o funcție de calculare a prețului închirierii unuia sau mai multor ATV-uri, care pornește de la 500 lei/oră/ATV.
+Am folosit, în cadrul acestui proiect, un fișier extern CSS, cu scopul implementării modificărilor la diverse tag-uri HTML, pentru a preveni probleme în construcția site-ului web.
